@@ -1,6 +1,6 @@
 
 
-# Student: setup UV Project for Comp4451
+## Student: setup UV Project for Comp4451
 
 1. Install uv & git 
 
@@ -20,7 +20,7 @@
 
     uv run python main.py
 
-# Updates
+### Updates
 
 6. To update with additional packages that I add
 
