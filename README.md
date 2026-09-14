@@ -11,22 +11,22 @@
 3. Change into the project directory:
 
     cd comp4451-f26
-cat 
+
 4. Install dependencies
 
     uv sync # the environment is updated automatically; reads pyproject.toml and uv.lock (exact package versions)
 
-### VSCODE
+### Terminal & VS Code script execution
 
+5. To execute code from terminal, navigate to the folder containing your .py file and use: uv run python (python3 for macOS) <your filename>  # Note: you do not need to activate the venv when using uv run.
 
-5. In VSCODE select the Python Interpreter named for the repository (i.e., comp4451-f26) to activate the venv. If you   
-    execute scripts from terminal activate the venv using the following:
+    Note: if you set up a uv environment without using a .toml file, you can activate the venv from terminal using:  source .venv/bin/activate (MacOS) or .venv\Scripts\activate.bat (Windows)
 
-    source .venv/bin/activate (MacOS) or .venv\Scripts\activate (Windows)
+6. To execute VS Code (run arrow), select the Python Interpreter named for the repository (i.e., comp4451-f26). 
 
 ### Updates
 
-6. To update with additional packages that I add during the course - you will be notified first
+7. To update with additional packages that I add during the course - you will be notified first
 
     git pull 
     uv sync 
